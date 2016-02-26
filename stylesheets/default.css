@@ -1,0 +1,93 @@
+body {
+  background-image: url("../imgs/pink-water.png");
+  background-size: 2300px;
+  background-repeat: no-repeat;
+}
+
+#content {
+  text-align: center;
+  clear: both;
+  height: 450px;
+  padding-top: 20px;
+}
+
+h1 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  font-size: 4.8em;
+  margin-top: 50px 0 0 25px;
+  padding-right: 0;
+  float: left;
+  display: inline;
+  color: #fff;
+  padding-bottom: 0;
+}
+
+.logo {
+  width: 150px;
+  float: left;
+  margin-left: 120px;
+  margin-top: 25px;
+}
+
+
+/*  NAV  */
+
+.navi {
+  list-style: none;
+  padding: 0;
+  display: right;
+  float: right;
+  margin-top: 100px;
+  margin-right: 120px;
+  font-weight: 800;
+}
+
+.navi a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Rubik', sans-serif;
+  font-size: 24px;
+}
+
+.navi li, a.selected, a:hover{
+  display: inline-block;
+  color: #00cccc;
+}
+
+
+/*  MAIN  */
+
+.main-header {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.8em;
+  color: #00cccc;
+  padding-top: 80px;
+  font-weight: 500;
+  text-align: left;
+  margin-left: 370px;
+  margin-top: 0;
+  margin-top: -145px;
+}
+
+
+/*    Footer   */
+
+.social-elements {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-elements a img {
+  width: 55px;
+  padding: 15px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.social-elements p {
+  font-size: 12px;
+  color: #fff;
+  margin: 0;
+  margin-bottom: 30px;
+}
