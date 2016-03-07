@@ -2,34 +2,42 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css">
-  <link href='https://fonts.googleapis.com/css?family=Jura:400,500,600|Rubik:400,700|Droid+Sans+Mono' rel='stylesheet' type='text/css'>
+  <!-- <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css"> -->
+  <link href='https://fonts.googleapis.com/css?family=ABeeZee|Istok+Web|Hammersmith+One' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="stylesheets/default.css">
   <link rel="stylesheet" type="text/css" href="stylesheets/blog.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+  <script src="garand-sticky/jquery.sticky.js"></script>
   <title>Ena Bek</title>
 </head>
 <body>
-  <header id="header">
-    <img src="imgs/ena-logo.png" alt="ena-logo" class="logo">
-    <h1>ena bek</h1>
+  <nav id="navigation">
+    <h1 class="name"><span>e</span>na <span>b</span>ek</h1>
     <ul class="navi">
-      <li><a href="http://enabek.github.io" class="selected">/home</a></li>
-      <li><a href="#">/about</a></li>
-      <li><a href="http://enabek.github.io/blog/">/blog</a></li>
-      <li><a href="#">/resume</a></li>
-      <li><a href="#">/contact</a></li>
+      <li><a href="http://enabek.github.io" class="selected">/ home /</a></li>
+      <li><a href="#">/ about /</a></li>
+      <li><a href="http://enabek.github.io/blog/">/ blog /</a></li>
+      <li><a href="#">/ contact /</a></li>
     </ul>
-  </header>
+  </nav>
 
-  <div id="content">
-    <h2 class="main-header">web developer</h2>
-  </div>
+  <main id="main-content">
+    <img src="imgs/back-small.png" alt="background-image" class="main-img">
+    <p class="main-text">Welcome! My name is Ena and I'm currently a student studying Web Development. </p>
+  </main>
 
-  <footer class="social-elements">
-    <a href="http://github.com/enabek" target="_blank"><img src="imgs/github-small.png" alt="GitHub"></a>
-    <a href="https://www.linkedin.com/in/ena-bek-a4b32261" target="_blank"><img src="imgs/linked-in-small.png" alt="LinkedIn"></a>
-    <a href="http://twitter.com/enabek" target="_blank"><img src="imgs/twitter-small.png" alt="Twitter"></a>
-    <p>Copyright &copy; Ena Bek 2016.</p>
+  <footer>
+    <a href="http://github.com/enabek" target="_blank"><img src="imgs/social-github.png" alt="GitHub"></a>
+    <a href="https://www.linkedin.com/in/ena-bek-a4b32261" target="_blank"><img src="imgs/social-linkedin.png" alt="LinkedIn"></a>
+    <a href="http://twitter.com/enabek" target="_blank"><img src="imgs/social-twitter.png" alt="Twitter"></a>
+
+    <h4 class="footer-text">Copyright &copy; Ena Bek 2016.</h4>
   </footer>
+
+  <script>
+    $(document).ready(function(){
+      $("#navigation").sticky({topSpacing:0});
+    });
+  </script>
 </body>
 </html>

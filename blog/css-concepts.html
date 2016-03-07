@@ -3,56 +3,54 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css">
-  <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css">
-  <link href='https://fonts.googleapis.com/css?family=Jura:400,500,600|Rubik:400,700|Droid+Sans+Mono' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=ABeeZee|Istok+Web|Hammersmith+One' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
   <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
-  <title>Blog</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+  <script src="garand-sticky/jquery.sticky.js"></script>
+  <title>Ena Bek - CSS Concepts</title>
 </head>
 <body>
-  <header id="header">
-    <img src="../imgs/ena-logo.png" alt="ena-logo" class="logo">
-    <h1>ena bek</h1>
+  <nav id="navigation">
+    <h1 class="name"><span>e</span>na <span>b</span>ek</h1>
     <ul class="navi">
-      <li><a href="index.html" class="selected">/home</a></li>
-      <li><a href="#">/about</a></li>
-      <li><a href="#">/blog</a></li>
-      <li><a href="#">/resume</a></li>
-      <li><a href="#">/contact</a></li>
+      <li><a href="http://enabek.github.io">/ home /</a></li>
+      <li><a href="#">/ about /</a></li>
+      <li><a href="http://enabek.github.io/blog/" class="selected">/ blog /</a></li>
+      <li><a href="#">/ contact /</a></li>
     </ul>
-  </header>
+  </nav>
 
-  <main id="blog-entries">
-      <a href="#" class="blog-entry"><h1>CSS Positioning</h1></a><br>
-      <h2>Relative, Absolute, Fixed, & Static</h2>
-      <p class="main-text">Upon entering into the world of CSS, you will quickly find that "positioning" is one of the most important concepts. Each element on the web page is a block, meaning that it's a rectangular object on the page, which you can adjust the shape and size of. When positioning, it is important to remember the four different types: static, relative, absolute, and fixed.
-      <br><br>
-      Static positioning is the default for every element. The main reason you would want to use position: static; is when you are looking to remove any positioning that got applied to the element from a previous rule.
-</xmp>
-      <br><br>
-      Relative positioning means that whatever attributes you give to an object, it will shift in accordance to it's static position, meaning relative to its normal position. When using position: relative; you must also give attiribute values such as top, bottom, left, right so the object knows how where to move.
-      <br><br>
-      Absolute positioning allows you to forceully place any object exactly where you want it. When using position: absolute;, you must also use attribute values to move the object. When using absolute positoning on an object, you are removing it from the flow of all the other elements.
-      <br><br>
-      Fixed positioning keeps the object fixed relative to the browser window. This means that when scrolling through a website, the fixed object will stay in its fixed position on the page. This is a great tool to use for the navigation bar or a side bar you want the user to have immediate reference to.
-    </p>
+  <main id="main-content">
+    <img src="../imgs/back-small.png" alt="background-image" class="main-img">
 
-  <div id="blog-content">
-  </div>
-  </main>
-  <aside class="side-links">
-    <a href="http://enabek.github.io/blog/git.html" class="blog-link">Version Control</a><br>
-    <a href="#" class="blog-link">Link to Entry 2</a><br>
-    <a href="#" class="blog-link">Link to Entry 3</a><br>
-    <a href="#" class="blog-link">Link to Entry 4</a>
-  </aside>
+    <h1>CSS Positioning</h1>
+    <h2>Relative, Absolute, Fixed, & Static</h2>
+    <p class="main-text">Upon entering into the world of CSS, you will quickly find that "positioning" is one of the most important concepts. Each element on the web page is a block, meaning that it's a rectangular object on the page, which you can adjust the shape and size of. When positioning, it is important to remember the four different types: static, relative, absolute, and fixed.
+    <br><br>
+    Static positioning is the default for every element. The main reason you would want to use position: static; is when you are looking to remove any positioning that got applied to the element from a previous rule.
 
+    <br><br>
+    Relative positioning means that whatever attributes you give to an object, it will shift in accordance to it's static position, meaning relative to its normal position. When using position: relative; you must also give attiribute values such as top, bottom, left, right so the object knows how where to move.
+    <br><br>
+    Absolute positioning allows you to forceully place any object exactly where you want it. When using position: absolute;, you must also use attribute values to move the object. When using absolute positoning on an object, you are removing it from the flow of all the other elements.
+    <br><br>
+    Fixed positioning keeps the object fixed relative to the browser window. This means that when scrolling through a website, the fixed object will stay in its fixed position on the page. This is a great tool to use for the navigation bar or a side bar you want the user to have immediate reference to.
+  </p>
+</main>
 
-  <footer class="social-elements">
-    <a href="http://github.com/enabek" target="_blank"><img src="../imgs/github-small.png" alt="GitHub"></a>
-    <a href="https://www.linkedin.com/in/ena-bek-a4b32261" target="_blank"><img src="../imgs/linked-in-small.png" alt="LinkedIn"></a>
-    <a href="http://twitter.com/enabek" target="_blank"><img src="../imgs/twitter-small.png" alt="Twitter"></a>
-    <p>Copyright &copy; Ena Bek 2016.</p>
+  <footer>
+    <a href="http://github.com/enabek" target="_blank"><img src="../imgs/social-github.png" alt="GitHub"></a>
+    <a href="https://www.linkedin.com/in/ena-bek-a4b32261" target="_blank"><img src="../imgs/social-linkedin.png" alt="LinkedIn"></a>
+    <a href="http://twitter.com/enabek" target="_blank"><img src="../imgs/social-twitter.png" alt="Twitter"></a>
+
+    <h4 class="footer-text">Copyright &copy; Ena Bek 2016.</h4>
   </footer>
+
+  <script>
+    $(document).ready(function(){
+      $("#navigation").sticky({topSpacing:0});
+    });
+  </script>
 </body>
 </html>

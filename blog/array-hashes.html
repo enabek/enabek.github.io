@@ -8,7 +8,7 @@
   <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
   <script src="garand-sticky/jquery.sticky.js"></script>
-  <title>Ena Bek - Blog</title>
+  <title>Ena Bek - Arrays & Hashes</title>
 </head>
 <body>
   <nav id="navigation">
@@ -24,15 +24,23 @@
   <main id="main-content">
     <img src="../imgs/back-small.png" alt="background-image" class="main-img">
 
-    <a href="http://enabek.github.io/blog/array-hashes.html"><h2 class="links">Ruby Part One</h2></a>
-    <h3>Arrays & Hashes</h3>
-    <a href="http://enabek.github.io/blog/css-concepts.html"><h2 class="links">CSS Concepts</h2></a>
-    <h3>Static, Relative, Absolute, & Fixed</h3>
-
-    <a href="http://enabek.github.io/blog/git.html"><h2 class="links">Version Control</h2></a>
-    <h3>Git & GitHub</h3>
-
-
+    <h1>Arrays & Hashes</h1>
+    <h2>Ruby Containers</h2>
+    <p class="main-text">
+    <b>::: Arrays :::</b>
+    <br><br>
+    Arrays are ordered collections of objects. They can hold just about any type of variable inside, even other arrays. Arrarys themselves are also considered objects.
+    <br><br>
+      <code>my_array = ["object_1", "object_2", "object_3"]</code>
+    <br><br>
+    There are many ways to manipulate the data inside the arrays. To access objects within arrary it is important to remember the index positioning of objects. For example, if we wanted to access <code>"object_1"</code> we would call it by using <code>my_array[0]</code> because the beginning index number is always zero.
+    <br><br>
+    <b>::: Hashes :::</b>
+    <br><br>
+    Hashes are a little more complex because they can hold collections of paired data called key/value pairs. Hashes are useful when you are looking to store pairs of information. They key always points to the value and is used as the index when calling values in hashes.
+    <br><br>
+      <code>my_hash = {"key_1" => "value_1", "key_2" => "value_2", "key_3" => "value_3"}</code>
+  </p>
 </main>
 
   <footer>
