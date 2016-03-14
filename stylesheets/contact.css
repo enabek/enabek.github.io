@@ -1,0 +1,10 @@
+#main-contact {
+  text-align: center;
+}
+
+#main-contact a img {
+  width: 55px;
+  padding: 15px;
+  margin-top: 25px;
+  margin-bottom: 0;
+}
