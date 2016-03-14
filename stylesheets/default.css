@@ -65,6 +65,10 @@ span {
 
 /*IMAGE*/
 
+#main-content {
+  padding-bottom: 30px;
+}
+
 #main-content img {
   width: 100%;
   margin-top: 0;
@@ -84,7 +88,7 @@ span {
 footer {
   text-align: center;
   clear: both;
-  padding-top: 40px;
+  padding-top: 10px;
   padding-bottom: 0;
 }
 
@@ -102,5 +106,5 @@ footer img {
   font-weight: 400;
   color: #000;
   margin: 0 auto;
-  padding-top: 40px;
+  padding-top: 20px;
 }
