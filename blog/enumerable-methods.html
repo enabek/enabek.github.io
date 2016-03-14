@@ -8,7 +8,7 @@
   <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
   <script src="garand-sticky/jquery.sticky.js"></script>
-  <title>Ena Bek - Version Control</title>
+  <title>Ena Bek - Enumerable Methods</title>
 </head>
 <body>
   <nav id="navigation">
@@ -17,7 +17,7 @@
       <li><a href="http://enabek.github.io">/ home /</a></li>
       <li><a href="#">/ about /</a></li>
       <li><a href="http://enabek.github.io/blog/" class="selected">/ blog /</a></li>
-      <li><a href="#">/ contact /</a></li>
+      <li><a href="http://enabek.github.io/contact">/ contact /</a></li>
     </ul>
   </nav>
 
@@ -26,15 +26,26 @@
   </main>
 
   <div id="main-text">
-    <h1>Version Control</h1>
-    <h2>Git & GitHub</h2>
-    <p class="main-text">Version control records and stores changes to a project over time. There are many benefits to using version control such as ablity to revert back to a previous version of your work if a mistake has been made in an update, recover work in case of loss or failure, share your work with others, and compare different versions of your work.
+    <h1>Enumerable Methods</h1>
+    <h2>The .each Iterator</h2>
+    <p>When working with arrays and hashes you will quickly run into a problem where you must tap into the container's contents in order to work with them individually. This where the Enumerable method .each will save the day! .each will grab the index, key, and/or value and perform whatever block of code you set it to do. Let's take a look at what iterating with .each actually looks like on arrays and hashes.
     <br><br>
-    Git helps you keep track of changes in your work by using a Distributed Version Control System (DVCS), an automated process that keeps a copy of every change made to a file within a repository. Within the repository you will find the most current state of the code, date  of changes made, author of the changes, and a message that explains the change.
+    Let's say we have an array:<br><br>
+    <code>favorite_teas = ["Oolong", "Green Tea", "White Tea"]</code><br><br>
+    If you wanted to print a list of these teas you would iterate in the following way:<br><br>
+    <code>favorite_teas.each {|tea|
+      puts tea }</code><br><br>
+    The "tea" item between the brackets is simply a keyword used as a placeholder. You can use any word!
     <br><br>
-    GitHub is an online Git repository hosting service that can be connected to your local computer through the command line/terminal. On GitHub you can give your work a face and connect with other developers socially. It's a platform that enables code sharing and collaboration.
-  </p>
-</div>
+    How about hashes? Hashes differ because they now have two placeholders, the key and its value.<br><br>
+    <code>tea_stock = ["Oolong" => 5, "Green Tea" => 3, "White Tea" => 3]</code><br><br>
+    If you wanted to print how many teas you have left you would do it as follows:<br><br>
+    <code>tea_stock.each {|tea, quantity|
+      puts "#{tea}: #{quantity}"}</code><br><br>
+    Once again, you can use any placeholder for the keywords!
+    </p>
+  </div>
+
 
   <footer>
     <a href="http://github.com/enabek" target="_blank"><img src="../imgs/social-github.png" alt="GitHub"></a>

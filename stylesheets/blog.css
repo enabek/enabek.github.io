@@ -9,6 +9,7 @@
   padding-top: 10px;
 }
 
+
 #main-links h3 {
   font-family: 'ABeeZee', sans-serif;
   margin-top: -15px;
@@ -26,4 +27,32 @@
 .footer-text {
   padding-bottom: 20px;
   font-size: 12px;
+}
+
+/*INDIVIDUAL BLOGS*/
+
+#main-text {
+  width: 70%;
+  text-align: center;
+  padding-top: 0;
+}
+
+#main-text p {
+  width: 80%;
+  font-family: 'ABeeZee', sans-serif;
+  padding-top: 10px;
+}
+
+#main-text h1 {
+  font-family: 'ABeeZee', sans-serif;
+  text-decoration: none;
+  color: #34b7a9;
+  padding-top: 20px;
+}
+
+#main-text h2 {
+  font-family: 'ABeeZee', sans-serif;
+  text-decoration: none;
+  color: #000;
+  padding-top: 0;
 }
