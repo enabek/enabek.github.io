@@ -1,0 +1,44 @@
+#navigation {
+  background: url("../imgs/palm.jpg") no-repeat;
+  background-size: cover!important;
+  height: 600px;
+  background-attachment: fixed;
+}
+
+#header h1 {
+  font-family: 'ABeeZee', sans-serif;
+ clear: both;
+ text-align: center;
+ font-size: 2em;
+ padding-top: 5%;
+}
+
+aside img {
+  width: 25%;
+  margin-top: 5%;
+  margin-left: 180px;
+  border-radius: 25px;
+
+}
+
+
+/*#main-content {
+ padding-right: 200px;
+ margin-top: -250px;
+}*/
+
+#main-content p.main-text {
+  float: right;
+  text-align: left;
+  font-size: 16px;
+  font-family: 'ABeeZee', sans-serif;
+  width: 40%;
+  margin-top: -20%;
+  padding-right: 15%;
+  padding-bottom: 200px;
+  padding-top: 20px;
+}
+
+footer {
+  margin-top: 0;
+}
