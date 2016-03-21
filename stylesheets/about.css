@@ -1,16 +1,13 @@
-#navigation {
-  background: url("../imgs/palm.jpg") no-repeat;
-  background-size: cover!important;
+header {
   height: 550px;
-  background-attachment: fixed;
 }
 
 #header h1 {
   font-family: 'ABeeZee', sans-serif;
- clear: both;
- text-align: center;
- font-size: 2em;
- padding-top: 5%;
+  clear: both;
+  text-align: center;
+  font-size: 2em;
+  padding-top: 5%;
 }
 
 aside img {
@@ -35,8 +32,4 @@ aside img {
   padding-right: 15%;
   padding-bottom: 200px;
   padding-top: 20px;
-}
-
-footer {
-  margin-top: 0;
 }

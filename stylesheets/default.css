@@ -1,53 +1,43 @@
-/*RESET*/
-
-* {
-  margin: 0 auto;
-  padding: 0;
-}
-
-/*BACKGROUND*/
-
-
 /*HEADER*/
 
-#navigation {
-  background: url("../imgs/palm.jpg") no-repeat;
-  background-size: cover!important;
-  height: 800px;
-  /*height: 100vh;*/
+header {
+  background-image: url("../imgs/palm-small.jpg");
+  background-size: cover;
   background-attachment: fixed;
+  height: 670px;
+  padding-top: 1.8em;
+/*  padding-bottom: 0*/
 }
 
-nav {
-  width: 100%;
-  height: 28px; /*Changes Bottom Position*/
-  background-color: #000;
-  top: 0;
-  padding-top: 1.8em;
+/*NAVIGATION*/
+
+header nav h1 {
+  font-family: 'ABeeZee', sans-serif;
+  float: left;
+  color: #fff;
+  font-size: 3em;
+  padding-left: 8%;
 }
 
 nav ul.navi {
   float: right;
-  margin-right: 50px;
-  margin-bottom: 0;
-  text-transform: uppercase;
+  padding-right: 8%;
 }
 
 nav ul.navi li {
   list-style: none;
-  padding-right: 35px;
-  /*padding-top: 15px;*/
+  padding-right: 25px;
+  padding-top: 10%;
   display: inline-block;
-
 }
 
 nav ul.navi  li a {
   font-family: 'ABeeZee', sans-serif;
-  font-weight: 500;
-  font-size: 1.2em;
+  font-size: 1.1em;
   text-decoration: none;
   color: #fff;
-
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 nav ul.navi li a:hover {
@@ -59,32 +49,80 @@ nav ul.navi li a.selected {
   color: #34b7a9;
 }
 
-nav h1 {
-  font-family: 'ABeeZee', sans-serif;
-  padding-left: 70px;
-  float: left;
+/*GREETING DIV*/
+
+#greeting {
+  text-align: center;
+  background-color: ;
+  color: #34b7a9;
+}
+
+#greeting h1 {
+  font-family: 'Playball', cursive;
+  font-size: 3em;
+  padding: 15px;
+}
+
+/*ABOUT*/
+
+#about aside img {
+  width: 25%;
+  margin-left: 15%;
+  border-radius: 25px;
+}
+
+#about .main-text {
+  width: 40%;
+  position: absolute;
+  top: 115%;
+  right: 15%;
+}
+
+#about p {
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+/*IMG DIV*/
+
+#img {
+  margin-top: 10%;
+  background-image: url("../imgs/palmy.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 350px;
+}
+
+#img h1 {
+  text-align: center;
   color: #fff;
+  text-transform: uppercase;
+  font-family: 'ABeeZee', sans-serif;
   font-size: 2.5em;
-  padding-top 0;
-  margin-top: -20px;
+  padding: 10%;
 }
 
-/*
-span {
-  color: #9fe1da;
-}
-*/
+/*CONTACT*/
 
-div #main-content {
-margin: 0 auto;
-padding: 0 auto;
+#contact p {
+  text-align: center;
+  font-family: 'Playball', cursive;
+  font-size: 2.2em;
+  color: #34b7a9;
+
+}
+
+
+#contact-form {
+  text-align: center;
 }
 
 
 /*FOOTER*/
 
 footer {
-  margin-top: 250px;
+  margin-top: 50px;
   text-align: center;
   clear: both;
   padding-top: 0;
@@ -99,10 +137,10 @@ footer img {
 
 
 .footer-text {
-  font-family: 'ABeeZee', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-weight: 400;
-  color: #000;
+  color: #909090;
   margin: 0 auto;
   padding-top: 20px;
   margin-bottom: 10px;

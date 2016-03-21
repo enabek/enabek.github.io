@@ -2,27 +2,60 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <!-- <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css"> -->
-  <link href='https://fonts.googleapis.com/css?family=ABeeZee|Istok+Web|Hammersmith+One' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css">
+  <link href='https://fonts.googleapis.com/css?family=ABeeZee|Istok+Web|Hammersmith+One|Playball|Open+Sans' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="stylesheets/default.css">
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
-  <script src="garand-sticky/jquery.sticky.js"></script>
   <title>Ena Bek</title>
 </head>
 <body>
-  <nav id="navigation">
-    <h1 class="name"><span>e</span>na <span>b</span>ek</h1>
-    <ul class="navi">
-      <li><a href="http://enabek.github.io" class="selected"> home </a></li>
-      <li><a href="http://enabek.github.io/about/"> about </a></li>
-      <li><a href="http://enabek.github.io/blog/"> blog </a></li>
-      <li><a href="http://enabek.github.io/contact"> contact </a></li>
-    </ul>
-  </nav>
+  <header>
+    <nav>
+      <h1>ena bek</h1>
+      <ul class="navi">
+        <li><a href="http://enabek.github.io" class="selected">home</a></li>
+        <li><a href="#">about</a></li>
+        <li><a href="#">projects</a></li>
+        <li><a href="http://enabek.github.io/blog/">blog</a></li>
+        <li><a href="#">contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <div id="main-content">
+  <div id="greeting">
+    <h1>Welcome!</h1>
   </div>
+
+  <div id="about">
+    <aside>
+    <img src="imgs/ena.JPG" alt="me" class="pic">
+    </aside>
+    <p class="main-text">Hey! My name is Ena. I reside in Brooklyn and I’m currently a student at Dev Bootcamp where I’m focusing on JavaScript, Ruby, Rails, and CSS.
+    <br><br>
+    When I’m not behind my Macbook Pro you can find me attending music shows, hiking in the Catskills, rock climbing, or doing yoga. Apart from development, I also like fashion, art, and design.</p>
+  </div>
+
+  <div id="img">
+    <h1>Contact</h1>
+  </div>
+
+  <div id="contact">
+    <p>Let's collaborate!</p>
+  </div>
+
+  <div id="contact-form">
+    <form action="MAILTO:enabek@gmail.com" method="post" enctype="text/plain">
+    Name:<br>
+    <input type="text" name="name" value=""><br>
+    E-mail:<br>
+    <input type="text" name="mail" value=""><br>
+    Comment:<br>
+    <input type="text" name="comment" value="UNDER CONSTRUCTION" size="50"><br><br>
+    <input type="submit" value="Send">
+    <input type="reset" value="Reset">
+    </form>
+  </div>
+
+
 
   <footer>
     <a href="http://github.com/enabek" target="_blank"><img src="imgs/social-github.png" alt="GitHub"></a>
@@ -31,11 +64,5 @@
 
     <h4 class="footer-text">Copyright &copy; Ena Bek 2016.</h4>
   </footer>
-
-  // <script>
-  //   $(document).ready(function(){
-  //     $("#navigation").sticky({topSpacing:0});
-  //   });
-  // </script>
 </body>
 </html>

@@ -2,29 +2,38 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link href='https://fonts.googleapis.com/css?family=ABeeZee|Istok+Web|Hammersmith+One' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/normalize.css">
+  <link href='https://fonts.googleapis.com/css?family=ABeeZee|Istok+Web|Hammersmith+One|Playball|Open+Sans' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
   <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
-  <script src="garand-sticky/jquery.sticky.js"></script>
-  <title>Blog</title>
+  <title>Ena Bek</title>
 </head>
 <body>
-  <nav id="navigation">
-    <h1 class="name"><span>e</span>na <span>b</span>ek</h1>
-    <ul class="navi">
-      <li><a href="http://enabek.github.io">/ home /</a></li>
-      <li><a href="#">/ about /</a></li>
-      <li><a href="http://enabek.github.io/blog/" class="selected">/ blog /</a></li>
-      <li><a href="#">/ contact /</a></li>
-    </ul>
-  </nav>
+  <header>
+    <nav>
+      <h1>ena bek</h1>
+      <ul class="navi">
+        <li><a href="http://enabek.github.io">home</a></li>
+        <li><a href="#">about</a></li>
+        <li><a href="#">projects</a></li>
+        <li><a href="http://enabek.github.io/blog/" class="selected">blog</a></li>
+        <li><a href="#">contact</a></li>
+      </ul>
+    </nav>
 
-  <main id="main-content">
-    <img src="../imgs/back-small.png" alt="background-image" class="main-img">
-  </main>
+  </header>
+
+  <div id="blog-it">
+    <h1>Blog It Out</h1>
+  </div>
+
+<!--   <main id="main-content">
+    <img src="/../imgs/back-small.png" alt="background-image" class="main-img">
+  </main> -->
 
   <div id="main-links">
+    <a href="#"><h2 class="links">Classes</h2></a>
+    <h3>#####</h3>
     <a href="http://enabek.github.io/blog/enumerable-methods.html"><h2 class="links">Enumerable Methods</h2></a>
     <h3>The .each Iterator</h3>
     <a href="http://enabek.github.io/blog/array-hashes.html"><h2 class="links">Ruby Containers</h2></a>
@@ -43,10 +52,5 @@
     <h4 class="footer-text">Copyright &copy; Ena Bek 2016.</h4>
   </footer>
 
-  <script>
-    $(document).ready(function(){
-      $("#navigation").sticky({topSpacing:0});
-    });
-  </script>
 </body>
 </html>
