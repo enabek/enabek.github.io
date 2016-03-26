@@ -91,7 +91,7 @@ nav ul.navi li a.selected {
 
 #about #line {
   height: 2px;
-  background: #f0f0f0;
+  background: #34b7a9;
   width: 100px;
   border: 0;
   margin: 0 auto;
@@ -135,7 +135,7 @@ nav ul.navi li a.selected {
 
 #projects #line {
   height: 2px;
-  background: #000;
+  background: #34b7a9;
   width: 100px;
   border: 0;
   margin: 0 auto;
@@ -147,10 +147,11 @@ nav ul.navi li a.selected {
 }
 
 #projects #project-imgs img {
-  width: 420px;
+  /*width: 420px;*/
+  width: 32%;
   margin: 0 auto;
   padding-top: 100px;
-  padding-right: 15px;
+  padding-right: 10px;
 }
 
 #contact {
@@ -175,7 +176,7 @@ nav ul.navi li a.selected {
 
 #contact #line {
   height: 2px;
-  background: #fff;
+  background: #34b7a9;
   width: 100px;
   border: 0;
   margin: 0 auto;
@@ -200,7 +201,6 @@ nav ul.navi li a.selected {
   text-align: center;
   margin: 0 auto;
 }
-
 
 #contact-form .submit-button {
     font-family: 'Playball', cursive;
