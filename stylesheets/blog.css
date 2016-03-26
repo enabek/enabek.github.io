@@ -5,6 +5,16 @@ header {
   height: 500px;
 }
 
+nav ul.navi {
+  float: right;
+  padding-right: 8%;
+  margin-top: 0;
+}
+
+header nav h1 {
+  color: #34b7a9;
+}
+
 #blog-it h1 {
   color: #fff;
   text-align: center;
@@ -20,7 +30,7 @@ header {
 }
 
 #main-links h2 {
-  font-family: 'ABeeZee', sans-serif;
+  font-family: 'Lato', sans-serif;
   text-decoration: none;
   color: #34b7a9;
   padding-top: 5px;
@@ -28,13 +38,14 @@ header {
 
 
 #main-links h3 {
-  font-family: 'Playball', cursive;
+  font-family: 'Lato', sans-serif;
   margin-top: -30px;
-  font-size: 1.3em;
+  font-size: 1em;
+  font-weight: 300;
+  text-transform: uppercase;
 }
 
 #main-links a {
-  font-family: 'Playball', cursive;
   padding-bottom: 0;
   text-decoration: none;
   color: #000;
@@ -42,10 +53,14 @@ header {
   padding: 5px;
 }
 
-.footer-text {
+footer img {
+  width: 50px;
+}
+
+/*.footer-text {
   padding-bottom: 20px;
   font-size: 12px;
-}
+}*/
 
 /*INDIVIDUAL BLOGS*/
 
