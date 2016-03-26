@@ -4,7 +4,7 @@ header {
   background-image: url("../imgs/palm-small.jpg");
   background-size: cover;
   background-attachment: fixed;
-  height: 620px;
+  height: 680px;
   padding-top: 1.8em;
 /*  padding-bottom: 0*/
 }
@@ -196,7 +196,7 @@ nav ul.navi li a.selected {
 /*CONTACT FORM*/
 
 #contact-form {
-  width: 600px;
+  width: 660px;
   padding-top: 50px;
   text-align: center;
   margin: 0 auto;
