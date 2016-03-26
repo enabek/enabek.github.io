@@ -3,8 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css">
-  <link href='https://fonts.googleapis.com/css?family=ABeeZee|Istok+Web|Hammersmith+One|Playball|Open+Sans' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=ABeeZee|Istok+Web|Hammersmith+One|Playball|Open+Sans|Lato:400,300,100' rel='stylesheet' type='text/css'>
+   <link rel="stylesheet" type="text/css" href="materialize/css/materialize.css">
   <link rel="stylesheet" type="text/css" href="stylesheets/default.css">
+
+  <script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+  <script src="materialize/js/materialize.min.js"></script>
   <title>Ena Bek</title>
 </head>
 <body>
@@ -13,36 +17,77 @@
       <h1>ena bek</h1>
       <ul class="navi">
         <li><a href="http://enabek.github.io" class="selected">home</a></li>
-        <li><a href="#greeting">about</a></li>
-        <li><a href="#">projects</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#projects">projects</a></li>
         <li><a href="http://enabek.github.io/blog/">blog</a></li>
-        <li><a href="#img">contact</a></li>
+        <li><a href="#contact">contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <div id="greeting">
+<!--   <div id="greeting">
     <h1>Welcome !</h1>
-  </div>
+  </div> -->
 
   <div id="about">
-    <aside>
+<!--     <aside>
     <img src="imgs/ena.JPG" alt="me" class="pic">
-    </aside>
-    <p class="main-text">Hey! My name is Ena. I reside in Brooklyn and I’m currently a student at Dev Bootcamp where I’m focusing on JavaScript, Ruby, Rails, and CSS.
+    </aside> -->
+    <h1>A  bit  about  me</h1>
+    <div id="line"></div>
+    <p class="main-text">I’m currently a Web Development student residing in New York City.
     <br><br>
-    When I’m not behind my Macbook Pro you can find me attending music shows, hiking in the Catskills, rock climbing, or doing yoga. Apart from development, I also like fashion, art, and design.</p>
+    When I’m not behind my Macbook Pro you can find me attending music shows, hiking in the Catskills, rock climbing, or doing yoga. Apart from development, I also love fashion, art, and design.</p>
   </div>
 
-  <div id="img">
-    <h1>Contact</h1>
+  <div id="projects">
+    <h1>RECENT  PROJECTS</h1>
+    <div id="line"></div>
+    <div id="project-imgs">
+      <img src="imgs/project.jpg">
+      <img src="imgs/project.jpg">
+      <img src="imgs/project.jpg">
+    </div>
   </div>
+
 
   <div id="contact">
-    <p>Let's collaborate !</p>
+    <h1>CONTACT  ME</h1>
+    <div id="line"></div>
+
+    <div id="pro-display">
+    </div>
   </div>
 
+<!--   <div id="collab">
+    <p>Let's collaborate !</p>
+  </div> -->
+
   <div id="contact-form">
+    <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s10">
+          <input id="name" type="text" class="validate" placeholder="Name goes here!">
+          <label for="name">Name</label>
+        </div>
+      <div class="row">
+        <div class="input-field col s10">
+          <input id="email" type="email" class="active" placeholder="Please enter your email!">
+          <label for="email">Email</label>
+        </div>
+      </div>
+          <div class="input-field col s10">
+          <input id="message" type="text" class="active" placeholder="Speak to me!">
+          <label for="message">Message</label>
+        </div>
+      </div>
+      <input type="submit" value="Submit it!" class="submit-button">
+    </form>
+    </div>
+  </div>
+
+<!--   <div id="contact-form">
     <form action="MAILTO:enabek@gmail.com" method="post" enctype="text/plain">
     Name:<br>
     <input type="text" name="name" value=""><br>
@@ -53,8 +98,7 @@
     <input type="submit" value="Send">
     <input type="reset" value="Reset">
     </form>
-  </div>
-
+  </div> -->
 
 
   <footer>
