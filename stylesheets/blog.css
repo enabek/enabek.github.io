@@ -9,10 +9,6 @@ nav ul.navi {
   margin-top: 0;
 }
 
-header nav h1 {
-  color: #34b7a9;
-}
-
 #blog-it h1 {
   color: #fff;
   text-align: center;
@@ -84,31 +80,53 @@ footer img {
 /*INDIVIDUAL BLOGS*/
 
 #main-text {
-  margin-left: 5%;
-  padding-top: 5%;
+  float: left;
+  margin: 100px;
   width: 700px;
 
 }
 
+code {
+  color: #7a7a7a;
+  background: ;
+}
+
 #main-text p {
-font-family: 'Open Sans', sans-serif;
+font-family: 'Lato', sans-serif;
+font-weight: 300;
 
 }
 
 #main-text h1 {
   text-decoration: none;
   color: #34b7a9;
-  padding-top: 20px;
 }
 
 #main-text h2 {
-  font-family: 'Playball', cursive;
+  margin-top: -10px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
   text-decoration: none;
   color: #000;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 #main-text img {
   text-align: center;
   padding: 10px;
+}
+
+/*SIDE LINKS*/
+
+#side-links {
+  position: fixed;
+  margin-left: 1000px;
+}
+
+#side-links a {
+  text-decoration: none;
+  color: #000;
+  margin: 0px;
+  padding: 5px;
 }

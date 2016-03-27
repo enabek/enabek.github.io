@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/normalize.css">
+  <link href='https://fonts.googleapis.com/css?family=ABeeZee|Istok+Web|Hammersmith+One|Playball|Open+Sans' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+  <title>Ena Bek | Blog</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="navi">
+        <li><a href="http://enabek.github.io">home</a></li>
+        <li><a href="#">about</a></li>
+        <li><a href="#">projects</a></li>
+        <li><a href="http://enabek.github.io/blog/" class="selected">blog</a></li>
+        <li><a href="#">contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="blog-it">
+    <h1>Blog It Out</h1>
+  </div>
+
+  <div id="main-text">
+    <h1>Hashes & Objects</h1>
+    <h2><b>Ruby VS JavaScript</b></h2>
+    <p class="main-text">All programming languages have similar operators and this made the switch to JavaScript from Ruby much easier this week. One really similar feature between both languages is how they store pairs of data inside of containers. In Ruby, we call this hashes and in JavaScript they are called objects.
+    <br><br>
+    First of, they look very similar and if you don't notice the <code>var</code> keyword and the <code>;</code> (semicolon) on the JavaScript object then you might not be able to differentiate between them initially.
+    <br><br> 
+    JavaScript Object:
+    <br><br> 
+      <code>
+      var object = {name: 'Ena', location: 'Bushwick'};
+      </code>
+    <br><br> 
+    Ruby Hash:
+    <br><br> 
+      <code>
+      hash = {name: 'Ena', location: 'Bushwick'}
+      </code><br><br> 
+    In JavaScript the keys are not considered a symbol like in Ruby, they are rather referred to as properties. Ruby also allows you the option to use strings as keys, which JavaScript does not. To access values using their keys in JavaScript you can use dot notation or brackets and in Ruby you can only use brackets.
+    <br><br> 
+    JavaScript:
+    <br><br> 
+      <code>
+      object.name
+      </code>
+    <br><br> 
+    Ruby:
+    <br><br> 
+      <code>
+      hash[name:]
+      </code><br><br>
+    Same rules go for adding and deleting properties in objects and hashes. Let's look at how to delete a new key and value.
+    <br><br> 
+        JavaScript:
+    <br><br> 
+      <code>
+      delete object.name
+      </code>
+    <br><br> 
+    Ruby:
+    <br><br> 
+      <code>
+      hash.delete(:name)
+      </code><br><br>
+  Now, both of the containers just include my location! Let's add my favorite restaurant in my neighborhood.
+  <br><br> 
+        JavaScript:
+    <br><br> 
+      <code>
+      object.favoriteRestaurant = "Montana's Trail House"
+      </code>
+    <br><br> 
+    Ruby:
+    <br><br> 
+      <code>
+      hash[:favorite_restaurant] = "Montana's Trail House"
+      </code><br><br>
+  </p>
+</div>
+
+<div id="side-links">
+  <h2>More Blog Posts:</h2>
+<!--   <a href="http://enabek.github.io/blog/javascript.html">JavaScript</a><br> -->
+  <a href="http://enabek.github.io/blog/ruby-classes.html">Ruby Classes</a><br>
+  <a href="http://enabek.github.io/blog/enumerable-methods.html">Enumerable Methods</a><br>
+  <a href="http://enabek.github.io/blog/array-hashes.html">Ruby Containers</a><br>
+  <a href="http://enabek.github.io/blog/css-concepts.html">CSS Concepts</a><br>
+  <a href="http://enabek.github.io/blog/git.html">Version Control</a>
+</div>
+
+  <footer>
+    <a href="http://github.com/enabek" target="_blank"><img src="../imgs/social-github.png" alt="GitHub"></a>
+    <a href="https://www.linkedin.com/in/ena-bek-a4b32261" target="_blank"><img src="../imgs/social-linkedin.png" alt="LinkedIn"></a>
+    <a href="http://twitter.com/enabek" target="_blank"><img src="../imgs/social-twitter.png" alt="Twitter"></a>
+
+    <h4 class="footer-text"><span>&hearts;</span> Copyright &copy; Ena Bek 2016.</h4>
+  </footer>
+
+</body>
+</html>
