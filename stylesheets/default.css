@@ -6,7 +6,6 @@ header {
   background-attachment: fixed;
   height: 680px;
   padding-top: 1.8em;
-/*  padding-bottom: 0*/
 }
 
 /*NAVIGATION*/
@@ -54,21 +53,9 @@ nav ul.navi li a.selected {
   color: #34b7a9;
 }
 
-/*GREETING DIV*/
-
-/*#greeting {
-  text-align: center;
-  background-color: ;
-  color: #34b7a9;
-}*/
-
-/*#greeting h1 {
-  font-family: 'Playball', cursive;
-  font-size: 3em;
-  padding: 15px;*/
-}
 
 /*ABOUT*/
+
 #about {
   height: 600px;
   width: 100%;
@@ -111,12 +98,11 @@ nav ul.navi li a.selected {
 
 /*PROJECTS DIV*/
 
-/*CONTACT DIV*/
-
 #projects {
   margin-top: 50px;
   height: 700px;
   background-color: #f0f0f0;
+  box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.1)
 }
 
 #projects h1 {
@@ -154,6 +140,9 @@ nav ul.navi li a.selected {
   padding-right: 10px;
 }
 
+
+/*CONTACT*/
+
 #contact {
   background-image: url("../imgs/palmy.jpg");
   background-size: cover;
@@ -182,16 +171,6 @@ nav ul.navi li a.selected {
   margin: 0 auto;
 }
 
-/*CONTACT*/
-
-/*#collab p {
-  padding-top: 30px;
-  text-align: center;
-  font-family: 'Playball', cursive;
-  font-size: 2.2em;
-  color: #34b7a9;
-
-}*/
 
 /*CONTACT FORM*/
 
@@ -203,15 +182,15 @@ nav ul.navi li a.selected {
 }
 
 #contact-form .submit-button {
-    font-family: 'Playball', cursive;
-    font-size: 22px;
-    background-color: #34b7a9;
-    color: #fff;
-    width: 120px;
-    border: none;
-    border-radius: 8px;
-    padding: 10px;
-    margin-top: 10px;
+  font-family: 'Playball', cursive;
+  font-size: 22px;
+  background-color: #34b7a9;
+  color: #fff;
+  width: 120px;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 10px;
 }
 
 
