@@ -121,15 +121,29 @@ font-weight: 300;
 /*SIDE LINKS*/
 
 #side-links {
-  position: fixed;
-  margin-left: 1000px;
+  float: right;
+  margin-top: 175px;
+  padding-right: 70px;
 }
 
-#side-links a {
-  text-decoration: none;
+#side-links ul.side {
+  list-style: none;
+  padding: 0px;
+}
+
+#side-links ul.side li {
+  padding-bottom: 10px;
+}
+
+#side-links ul.side li a {
+  font-family: 'Lato', sans-serif;
+  text-decoration: underline;
   color: #000;
-  margin: 0px;
-  padding: 5px;
+}
+
+#side-links ul.side li a:hover {
+  transition: color 0.5s ease;
+  color: #34b7a9;
 }
 
 
@@ -137,12 +151,6 @@ footer {
   padding-top: 0;
 }
 
-/*footer img {
-  width: 34px;
-  padding: 12px;
-  margin-bottom: 0;
-  margin-top: 10px;
-}*/
 
 #soc-links {
   float: right;

@@ -6,21 +6,23 @@
   <link href='https://fonts.googleapis.com/css?family=ABeeZee|Istok+Web|Hammersmith+One|Playball|Open+Sans|Lato:400,300,100' rel='stylesheet' type='text/css'>
    <link rel="stylesheet" type="text/css" href="materialize/css/materialize.css">
   <link rel="stylesheet" type="text/css" href="stylesheets/default.css">
-
   <script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
   <script src="materialize/js/materialize.min.js"></script>
+  <script src="garand-sticky/jquery.sticky.js" type="text/javascript"></script>
+  <script src="extra-sticky.js" type="text/javascript"></script>
+  <script src="scrollTo/jquery.scrollTo.min.js" type="text/javascript"></script>
   <title>Ena Bek</title>
 </head>
 <body>
-  <header>
-    <nav>
+  <header id="top">
+    <nav id="sticker">
       <a href="http://enabek.github.io"><h1>ena bek<span id="dot">.</span></h1></a>
       <ul class="navi">
-        <li><a href="http://enabek.github.io" class="selected">home</a></li>
+        <li><a href="#top" class="selected">home</a></li>
         <li><a href="#about">about</a></li>
         <li><a href="#projects">projects</a></li>
         <li><a href="http://enabek.github.io/blog/">blog</a></li>
-        <li><a href="#contact">contact</a></li>
+        <li><a href="#stop">contact</a></li>
       </ul>
     </nav>
   </header>
@@ -43,6 +45,9 @@
     </div>
   </div>
 
+
+  <div id="stop">
+  </div>
 
   <div id="contact">
     <h1>CONTACT  ME</h1>
@@ -92,5 +97,20 @@
 
     <h4 class="footer-text"><span>&hearts;</span> Copyright &copy; Ena Bek 2016.</h4>
   </footer>
+
+  <script type="text/javascript">
+    $(function(){
+      $("nav a").click(function(e){
+        e.preventDefault();
+        $('html,body').scrollTo(this.hash, this.hash);
+      });
+    });
+  </script>
+
+  <script>
+    $(document).ready(function(){
+      $("#sticker").sticky({topSpacing:0});
+    });
+  </script>
 </body>
 </html>
