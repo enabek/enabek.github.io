@@ -137,9 +137,24 @@ footer {
   padding-top: 0;
 }
 
-footer img {
+/*footer img {
   width: 34px;
   padding: 12px;
   margin-bottom: 0;
   margin-top: 10px;
+}*/
+
+#soc-links {
+  float: right;
+  margin-right: 22%;
+  padding-top: 20px;
 }
+
+#soc-links img {
+  width: 40px;
+  padding: 5px;
+}
+
+
+
+
