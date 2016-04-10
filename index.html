@@ -16,13 +16,13 @@
 <body>
   <header id="top">
     <nav id="sticker">
-      <a href="http://enabek.github.io"><h1>ena bek<span id="dot">.</span></h1></a>
+      <a href="http://enabek.github.io"><h1 class="name">ena bek<span id="dot">.</span></h1></a>
       <ul class="navi">
-        <li><a href="#top">home</a></li>
-        <li><a href="#about">about</a></li>
-        <li><a href="#projects">projects</a></li>
+        <li><a href="#top" class="nav-link">home</a></li>
+        <li><a href="#about" class="nav-link">about</a></li>
+        <li><a href="#projects" class="nav-link">projects</a></li>
         <li><a href="blog/index.html#navi" class="external">blog</a></li>
-        <li><a href="#stop">contact</a></li>
+        <li><a href="#stop" class="nav-link">contact</a></li>
       </ul>
     </nav>
   </header>
@@ -56,6 +56,9 @@
     <div id="pro-display">
     </div>
   </div>
+
+
+
 
 <div id="contact-form">
   <div class="row">
@@ -97,7 +100,7 @@
 
   <script type="text/javascript">
     $(function(){
-      $("nav a").click(function(e){
+      $("nav a.nav-link").click(function(e){
         e.preventDefault();
         $('html,body').scrollTo(this.hash, this.hash);
       });
@@ -107,6 +110,19 @@
   <script>
     $(document).ready(function(){
       $("#sticker").sticky({topSpacing:0});
+    });
+  </script>
+
+  <script>
+    $(document).ready(function() {
+      var links = $(".nav-link")
+      links.click(function() {
+        console.log(links)
+        if ( links.hasClass("active") ) {
+          links.removeClass("active");
+        }
+        $(this).addClass("active");
+      });
     });
   </script>
 </body>
