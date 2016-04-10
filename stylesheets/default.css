@@ -36,6 +36,10 @@ nav {
   background-color: none;
 }
 
+nav ul.navi  li a.active {
+  color: #34b7a9;
+}
+
 .toColor {
     transition: background-color 1s;
     background-color: #000;
