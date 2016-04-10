@@ -6,3 +6,8 @@ $(window).scroll(function() {
     	$("#sticker").removeClass("toColor")
     }
 });
+
+
+// $('#sticker').onePageNav({
+// 	filter: ':not(.external)'
+// });
