@@ -2,28 +2,26 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css">
-  <link href='https://fonts.googleapis.com/css?family=ABeeZee|Istok+Web|Hammersmith+One' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/normalize.css">
+  <link href='https://fonts.googleapis.com/css?family=ABeeZee|Istok+Web|Hammersmith+One|Playball|Open+Sans' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
   <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
-  <script src="garand-sticky/jquery.sticky.js"></script>
-  <title>Ena Bek - Arrays & Hashes</title>
+  <title>Ena Bek | Blog</title>
 </head>
 <body>
-  <nav id="navigation">
-    <h1 class="name"><span>e</span>na <span>b</span>ek</h1>
-    <ul class="navi">
-      <li><a href="http://enabek.github.io">/ home /</a></li>
-      <li><a href="#">/ about /</a></li>
-      <li><a href="http://enabek.github.io/blog/" class="selected">/ blog /</a></li>
-      <li><a href="#">/ contact /</a></li>
-    </ul>
-  </nav>
+  <header>
+    <nav>
+      <ul class="navi">
+        <li><a href="../index.html">home</a></li>
+        <li><a href="index.html" class="selected">blog</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <main id="main-content">
-    <img src="../imgs/back-small.png" alt="background-image" class="main-img">
-  </main>
+  <div id="blog-it">
+    <h1>A Blog Develops</h1>
+  </div>
+
   <div id="main-text">
     <h1>Arrays & Hashes</h1>
     <h2>Ruby Containers</h2>
@@ -44,18 +42,25 @@
   </p>
 </div>
 
-  <footer>
-    <a href="http://github.com/enabek" target="_blank"><img src="../imgs/social-github.png" alt="GitHub"></a>
-    <a href="https://www.linkedin.com/in/ena-bek-a4b32261" target="_blank"><img src="../imgs/social-linkedin.png" alt="LinkedIn"></a>
-    <a href="http://twitter.com/enabek" target="_blank"><img src="../imgs/social-twitter.png" alt="Twitter"></a>
+<div id="side-links">
+  <h2>More Blog Posts:</h2>
+  <ul class="side">
+    <li><a href="http://enabek.github.io/blog/javascript.html">JavaScript</a></li>
+    <li><a href="http://enabek.github.io/blog/ruby-classes.html">Ruby Classes</a></li>
+    <li><a href="http://enabek.github.io/blog/enumerable-methods.html">Enumerable Methods</a></li>
+    <li><a href="http://enabek.github.io/blog/array-hashes.html">Ruby Containers</a></li>
+    <li><a href="http://enabek.github.io/blog/css-concepts.html">CSS Concepts</a></li>
+    <li><a href="http://enabek.github.io/blog/git.html">Version Control</a></li>
+  </ul>
+</div>
 
-    <h4 class="footer-text">Copyright &copy; Ena Bek 2016.</h4>
+  <footer>
+    <!-- <a href="http://github.com/enabek" target="_blank"><img src="../imgs/social-github.png" alt="GitHub"></a>
+    <a href="https://www.linkedin.com/in/ena-bek-a4b32261" target="_blank"><img src="../imgs/social-linkedin.png" alt="LinkedIn"></a>
+    <a href="http://twitter.com/enabek" target="_blank"><img src="../imgs/social-twitter.png" alt="Twitter"></a> -->
+
+    <h4 class="footer-text"><span>&hearts;</span> Copyright &copy; Ena Bek 2016.</h4>
   </footer>
 
-  <script>
-    $(document).ready(function(){
-      $("#navigation").sticky({topSpacing:0});
-    });
-  </script>
 </body>
 </html>
