@@ -27,6 +27,11 @@ header nav a h1:hover {
   color: #34b7a9;
 }
 
+.dot-color {
+  transition: color 0.5s ease;
+  color: #fff !important;
+}
+
 nav {
   background-color: none;
 }
