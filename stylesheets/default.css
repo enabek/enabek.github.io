@@ -174,10 +174,17 @@ nav ul.navi li a.selected {
 
 #projects #project-imgs img {
   /*width: 420px;*/
-  width: 32%;
+  width: 100%;
+  height: 80%;
   margin: 0 auto;
-  padding-top: 100px;
-  padding-right: 10px;
+ /* padding-right: 10px;*/
+
+}
+
+.project {
+  display: inline-block;
+  margin: 0 auto;
+  width: 30%;
 }
 
 
@@ -297,3 +304,4 @@ footer img {
   font-family: 'Satisfy', cursive;
   color: white;
 }
+
