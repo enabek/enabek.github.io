@@ -267,26 +267,33 @@ footer img {
   color: #ff80bf;
 }
 
-.email {
-  font-family: 'ABeeZee', sans-serif;
-  text-transform: lowercase;
-  font-size: 3em;
-  margin-bottom: 10px;
-  color: white;
-  font-weight: 900;
-}
-
-.email:hover {
-  transition: color 0.5s ease;
-  color: #34b7a9;
-}
 
 .fa {
-  color: #34b7a9;
   padding: 20px;
 }
 
-.fa:hover  {
+/*.fa:hover  {
   transition: color 0.5s ease;
+  color: white;
+}*/
+
+.mail {
+  color: #ff4d4d;
+}
+
+.linkedin {
+  color: #0077B5;
+}
+
+.github {
+  color: black;
+}
+
+.twitter {
+  color: #55acee;
+}
+
+.collab {
+  font-family: 'Satisfy', cursive;
   color: white;
 }
