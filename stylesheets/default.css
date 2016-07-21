@@ -5,7 +5,7 @@ header {
   background-size: cover;
   background-attachment: fixed;
   height: 800px;
-  padding-top: 1.8em;
+  /*padding-top: 1.8em;*/
 }
 
 /*NAVIGATION*/
@@ -65,13 +65,13 @@ nav ul.navi  li a.active {
 nav ul.navi {
   float: right;
   padding-right: 8%;
-  margin-top: -15px;
+  margin-top: -25px;
 }
 
 nav ul.navi li {
   list-style: none;
   padding-right: 25px;
-  padding-top: 10%;
+  padding-top: 9%;
   display: inline-block;
 }
 
