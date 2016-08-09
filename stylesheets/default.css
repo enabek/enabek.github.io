@@ -291,19 +291,39 @@ footer img {
 }*/
 
 .mail {
-  color: #ff4d4d;
+  color: white;
+}
+
+.mail:hover  {
+  transition: color 0.5s ease;
+  color: #34b7a9;
 }
 
 .linkedin {
   color: #0077B5;
 }
 
+.linkedin:hover  {
+  transition: color 0.5s ease;
+  color: #34b7a9;
+}
+
 .github {
   color: black;
 }
 
+.github:hover  {
+  transition: color 0.5s ease;
+  color: #34b7a9;
+}
+
 .twitter {
   color: #55acee;
+}
+
+.twitter:hover  {
+  transition: color 0.5s ease;
+  color: #34b7a9;
 }
 
 .collab {
