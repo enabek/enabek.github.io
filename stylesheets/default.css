@@ -1,3 +1,6 @@
+body {
+  cursor: crosshair;
+}
 /*HEADER*/
 
 header {
@@ -334,4 +337,3 @@ footer img {
 .pro-link {
   color: #34b7a9;
 }
-
