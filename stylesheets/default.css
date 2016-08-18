@@ -114,7 +114,7 @@ nav ul.navi li a.selected {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 1em;
-  padding-top: 140px;
+  padding-top: 100px;
   padding-bottom: 20px;
   text-transform: uppercase;
   text-align: center;
@@ -157,7 +157,7 @@ nav ul.navi li a.selected {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 1em;
-  padding-top: 150px;
+  padding-top: 100px;
   padding-bottom: 20px;
   text-transform: uppercase;
   text-align: center;
@@ -177,19 +177,24 @@ nav ul.navi li a.selected {
 }
 
 /*PROJECT IMGS*/
-#projects #project-imgs {
+/*#projects #project-imgs {
   text-align: center;
 }
-
-.project {
+*/
+/*.project {
   display: inline-block;
   margin: 0 auto;
   padding: 10px;
 }
+*/
+img {
+    max-width: 100%;
+    height: 100%;
+    height: auto;
+}
 
-.project img {
-  height: 230px;
-  width: 390px;
+.about-project {
+  text-align: center;
 }
 
 
