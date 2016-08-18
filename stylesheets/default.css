@@ -210,7 +210,7 @@ img {
   background-image: url("../imgs/palmy.jpg");
   background-size: cover;
   background-attachment: fixed;
-  height: 610px;
+  height: auto;
   width: 100%;
 }
 
@@ -218,7 +218,7 @@ img {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 1em;
-  padding-top: 130px;
+  padding-top: 80px;
   padding-bottom: 20px;
   text-transform: uppercase;
   text-align: center;
@@ -233,13 +233,21 @@ img {
   width: 100px;
   border: 0;
   margin: 0 auto;
-  margin-bottom: 50px;
+/*  margin-bottom: 100px;*/
+}
+
+#pro-display {
+  padding-bottom: 80px;
+}
+
+#media {
+  background-color: #cccccc;
 }
 
 
 /*CONTACT FORM*/
 
-#contact-form {
+/*#contact-form {
   width: 660px;
   padding-top: 50px;
   margin: 0 auto;
@@ -256,7 +264,7 @@ img {
   border-radius: 8px;
   padding: 10px;
   margin-top: 10px;
-}
+}*/
 
 
 /*FOOTER*/
