@@ -18,7 +18,7 @@ header nav a h1 {
   float: left;
   color: #fff;
   font-size: 3em;
-  padding-left: 8%;
+  padding-left: 4%;
 }
 
 header nav a h1:hover {
@@ -70,9 +70,21 @@ nav ul.navi  li a.active {
   height: 100px;
 }
 
+#stop-about {
+  background-color: transparent;
+  width: 100%;
+  height: 60px;
+}
+
+/*#stop-projects {
+  background-color: transparent;
+  width: 100%;
+  height: 100px;
+}*/
+
 nav ul.navi {
   float: right;
-  padding-right: 8%;
+  padding-right: 4%;
   margin-top: -25px;
 }
 
@@ -109,6 +121,16 @@ nav ul.navi li a.selected {
   height: auto;
   width: 100%;
   margin-bottom: 0;
+}
+
+#spaceey {
+  /*background-color: transparent;*/
+  visibility: hidden;
+  /*position: absolute;*/
+  /*top: 800px;*/
+  /*display: none;*/
+  /*height: 100px;*/
+  z-index: 1;
 }
 
 #about h1 {
@@ -347,6 +369,8 @@ footer img {
 .collab {
   font-family: 'Satisfy', cursive;
   color: white;
+  margin: 0 auto;
+  padding-top: 50px;
 }
 
 .pro-link {
