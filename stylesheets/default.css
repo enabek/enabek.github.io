@@ -232,7 +232,7 @@ img {
   background-image: url("../imgs/palmy.jpg");
   background-size: cover;
   background-attachment: fixed;
-  height: 300px;
+  height: 250px;
   /*height: auto;*/
   width: 100%;
 }
