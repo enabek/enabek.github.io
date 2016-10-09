@@ -1,9 +1,13 @@
 $(document).ready(function() {
   $(window).scroll(function() {
-    var bottom_of_object = $(".main-text").offset().top + $(".main-text").outerHeight();
-    var bottom_of_window = $(window).scrollTop() + $(window).height();
+    
+    $(".hidden").each(function(elm) {
+      var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+      var bottom_of_window = $(window).scrollTop() + $(window).height();
+
       if( bottom_of_window > bottom_of_object ){
-        $(".main-text").animate({'opacity':'1'},700);
+        $(this).animate({'opacity':'1'},700);
       };
+    }) 
   });
 });
