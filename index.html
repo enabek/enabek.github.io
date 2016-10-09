@@ -14,6 +14,7 @@
   <script src="garand-sticky/jquery.sticky.js" type="text/javascript"></script>
   <script src="extra-sticky.js" type="text/javascript"></script>
   <script src="scrollTo/jquery.scrollTo.min.js" type="text/javascript"></script>
+  <script src="effects.js" type="text/javascript"></script>
   <link rel="shortcut icon" type="image/x-icon" href="icon.ico" />
   <title>Ena Bek</title>
 </head>
@@ -37,7 +38,7 @@
   <div id="about">
     <h1 id="about-me">A  bit  about  me</h1>
     <div id="line"></div>
-    <p class="main-text">My name is Ena and I’m a Full-Stack Web Developer in New York City. I love building web applications with Ruby on Rails and JavaScript.
+    <p class="main-text hidden">My name is Ena and I’m a Full-Stack Web Developer in New York City. I love building web applications with Ruby on Rails and JavaScript.
     <br><br>
     When I’m not behind my Macbook Pro you can find me at a music concert, hiking in the Catskills, rock climbing, or doing yoga.</p>
   </div>
@@ -49,7 +50,7 @@
     <h1>RECENT  PROJECTS</h1>
     <div id="line"></div>
     <div class="container">
-      <div class="row">
+      <div class="row hidden">
       <!-- <div id="project-imgs"> -->
         <div class="col s12 m6 l4">
           <img src="imgs/taskmate.png">
@@ -128,6 +129,7 @@
       $("#sticker").sticky({topSpacing:0});
     });
   </script>
+
 
 </body>
 </html>

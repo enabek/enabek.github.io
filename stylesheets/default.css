@@ -394,3 +394,7 @@ footer img {
 .pro-link {
   color: #34b7a9;
 }
+
+.hidden {
+  opacity: 0;
+}
