@@ -1,0 +1,63 @@
+.container {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+
+.text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 50em;
+  height: 5em;
+  font-family: 'Inconsolata', monospace;
+  font-size: 30px;
+  color: gray;
+}
+
+.text-color {
+  color: pink;
+}
+
+.blink {
+	-webkit-animation: blink 1.5s linear infinite;
+	-moz-animation: blink 1.5s linear infinite;
+	-ms-animation: blink 1.5s linear infinite;
+	-o-animation: blink 1.5s linear infinite;
+	 animation: blink 1.5s linear infinite;
+ }
+
+@-webkit-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-moz-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-ms-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-o-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
