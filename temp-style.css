@@ -1,35 +1,30 @@
+.containter {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
 .text-container {
   font-family: 'Inconsolata', monospace;
   font-size: 30px;
   color: gray;
-  /*position: relative;
-  left: 0;
-  top: 0;
-  width: 100vw;
-  height: 100vh;*/
-}
-
-.column {
-  /*position: absolute;
+  position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
   width: 50em;
-  height: 5em;*/
+  height: 5em;
 }
 
 .text-left {
   text-align: right;
 }
 
-.text-right {
-
-}
-
 .typed-container {
   margin-left: 10px;
 }
-
 
 p { margin: 0; display: inline-block;}
 
@@ -41,11 +36,7 @@ p { margin: 0; display: inline-block;}
     padding-left: 2rem;
     margin-left: 50px;
   }
-  .text-container {
-    /*margin-top: 90%;*/
-  }
 }
-
 
 .text-color {
   color: pink;
